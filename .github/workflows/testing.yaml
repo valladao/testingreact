@@ -1,0 +1,12 @@
+name: Testing the app
+on: [push]
+jobs:
+  testing: My first test
+    name: Testing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+      - name: Run the tests
+        run: npm test
