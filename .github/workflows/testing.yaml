@@ -1,7 +1,7 @@
 name: Testing the app
 on: [push]
 jobs:
-  testing: My first test
+  testing: #My first test
     name: Testing
     runs-on: ubuntu-latest
     steps:
